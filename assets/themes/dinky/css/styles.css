@@ -334,6 +334,7 @@ footer {
   width:230px;
   bottom:10px;
   padding-left: 55%;
+  text-align: center;
 }
 
 @media print, screen and (max-width: 960px) {
@@ -353,6 +354,7 @@ footer {
     border-top: 1px solid #ccc;
     margin:0 84px 0 50px;
     padding:0;
+    text-align: center;
   }
   
   header {
@@ -386,8 +388,8 @@ footer {
   }
 
   section {
-    padding:10px 0 10px 20px;
-    margin:0 30px 30px;
+    padding:5px 0 5px 5px;
+    margin:0 5px 5px;
   }
 
   footer {    
