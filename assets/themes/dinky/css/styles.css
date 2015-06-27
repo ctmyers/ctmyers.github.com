@@ -203,13 +203,13 @@ td {
 /* Header */
 
 img.headerPhoto {
-  width: 200px;
   height: 200px;
   border-radius: 150px;
   -webkit-border-radius: 150px;
   -moz-border-radius: 150px;
   padding: 0 0 0 0;
   margin: 0 0 0 0;
+  border:none;
 }
 
 header {

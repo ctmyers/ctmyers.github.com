@@ -26,8 +26,9 @@
             
             {% assign pages = site.data.nav %}
             {% for p in pages %}
+            {% assign purl = p.href | append:'index.html'%}
             <a href="{{ site.url }}{{ p.href }}">
-              <li {% if p.href == page.url %}class="active" {% else %}class="navbutton"{% endif %}>{{ p.title }}</li>
+              <li {% if page.url == purl %}class="active" {% else %}class="navbutton"{% endif %}>{{ p.title }}</li>
             </a>
             {% endfor %}
           

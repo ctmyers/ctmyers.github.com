@@ -1,17 +1,17 @@
 - title: "Home"
-  href: "/index.html"
+  href: "/"
  
 - title: "Resume"
-  href: "/learning-resources/"
+  href: "/resume/"
  
 - title: "Projects"
-  href: "/login/"
+  href: "/projects/"
  
  
 - title: "Blog"
-  href: "/signup/"
+  href: "/blog/"
  
  
 - title: "Contact Me"
-  href: "/support/"
+  href: "/contact/"
  
